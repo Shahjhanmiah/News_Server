@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import router from './routes/pages.js';
 import cors from 'cors';
 import connection from './database/connection.js';
-import session from 'express-session';
+import session from 'cookie-session';
 import passport from 'passport'
 import './routes/passport.js';
 
